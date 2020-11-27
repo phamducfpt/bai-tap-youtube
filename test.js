@@ -3,7 +3,7 @@ var img = document.getElementById("myImg");
 var myClose = document.getElementById("myClose");
 var videoframe = document.getElementById('video-frame');
 const limitvideo = 13;
-const youtubekey = 'AIzaSyDHPUEaGp5LvX1nEEi0BioIzZqR6YRxNpU'
+const youtubekey = 'AIzaSyARjnYwzkpZVMll-shcZmnQkphTQG5BChs'
 
 var btnAdd = document.querySelector('input[name="btn-add"]');
 btnAdd.onclick = function () {

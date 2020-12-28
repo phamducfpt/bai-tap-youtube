@@ -18,7 +18,6 @@ btnAdd.onclick = function () {
                 itemList.innerHTML += `<div class="item" onclick="playvideowithID(\`${jsonContent.items[i].id.videoId}\`)">
                   <img src="${jsonContent.items[i].snippet.thumbnails.high.url}" alt="">
             <div class="item-img" >
-            
             <div class="item-name">${jsonContent.items[i].snippet.title}</div>
               
             </div>

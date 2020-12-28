@@ -24,10 +24,10 @@ div.item-name{
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/125831426_2747082178847909_5058775922665262387_n.jpg?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=iVT-8ufUGHsAX8OjPwT&_nc_ht=scontent.fhan2-6.fna&oh=d785156264b802211961a504d8799e3e&oe=5FE67452");
+    background-image: url("https://scontent.fhan2-5.fna.fbcdn.net/v/t1.0-9/131022204_397208708261745_8442619228163867089_n.jpg?_nc_cat=109&ccb=2&_nc_sid=8bfeb9&_nc_ohc=lDkBVSOVc74AX_qqjfk&_nc_ht=scontent.fhan2-5.fna&oh=0dbb5f725191825fa4cad5f8b501c77c&oe=600D6528");
 }
 #myImg {
-    border-radius: 5px;
+    border-radius:5px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -80,7 +80,7 @@ main {
 }
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 30px;
 }
 .row::after {
     content: "";
@@ -95,7 +95,7 @@ main article {
 main article .title {
     padding: 10px 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -123,4 +123,8 @@ main article .title {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
+}
+.ytp-cued-thumbnail-overlay-image{
+    border-radius: 10px;
+
 }
